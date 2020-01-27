@@ -27,10 +27,11 @@ Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.d
 // --- 4. include Pfade anpassen ---------------
 
 = Technische Spezifikation
-• Vision
-• Use Case Model
-• System-wide Requirements
-• Glossar
+* Vision
+* Use Case Model (inkl. Wireframes, sofern vorhanden)
+* System-wide Requirements
+* Glossar
+* Domänenmodell
 
 // Vision
 include::path/to/vision.adoc[lines=1..1;4..-1,leveloffset=+1]
@@ -44,11 +45,14 @@ include::path/to/systemwide_reqs.adoc[lines=1..1;4..-1,leveloffset=+1]
 // Glossar
 include::path/to/glossary.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
+// Domänenmodell
+include::path/to/domainmodel.adoc[lines=1..1;4..-1,leveloffset=+1]
+<<<
 
 = Projektdokumentation
-• Projektplan
-• Risikoliste
-• Iteration Plan (für zwei ausgewählte Iterationen)
+* Projektplan
+* Risikoliste
+* Iteration Plan (für zwei ausgewählte Iterationen)
 
 // Projektplan
 include::path/to/projectplan.adoc[lines=1..1;4..-1,leveloffset=+1]
@@ -64,9 +68,9 @@ include::path/to/iteration_plan_2.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
 = Entwurfsdokumentation
-• Architektur-Notizbuch
-• Test Cases
-• Design
+* Architektur-Notizbuch
+* Test Cases
+* Design
 
 // Architektur-Notizbuch
 include::path/to/archit_notebook.adoc[lines=1..1;4..-1,leveloffset=+1]
