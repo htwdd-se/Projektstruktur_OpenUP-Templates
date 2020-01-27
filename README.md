@@ -21,6 +21,10 @@ Vorlagen für die Abgabe der Belegarbeiten in SE I
         // --- 2. Teammitglieder -----------------------
         Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; ...
         ```
+        > Lange Autorennamen (mehr als 3 Teile) in den Dokumentenattributen müssen mit einem `_` (Unterstrich) zu einer Gruppe von Vor- bzw. Nachnamen zusammengefasst werden. Es treten sonst Formatierungsfehler beim erzeugen der HTML- oder PDF-Dokumente auf. Der `_` (Unterstrich) wird im erzeugten Dokument nicht dargestellt.
+        >
+        > - `Vorname1_Vorname2 Nachname1_Nachname2 <mail@example.com>`
+        > - `Vorname Nachname1_Nachname2_Nachname3 <mail@example.com>`
     
     - Versionsdatum als **Abgabedatum** eintragen
     
