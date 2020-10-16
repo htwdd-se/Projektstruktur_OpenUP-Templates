@@ -1,0 +1,16 @@
+// Meta
+:project-name: <Projektname (T00)>
+// Settings:
+:toc:
+:toc-title: Inhaltsverzeichnis
+:toclevels: 3
+:sectnums:
+:icons: font
+//:source-highlighter: highlightjs
+:source-highlighter: rouge
+:xrefstyle: full
+:figure-caption: Abbildung
+:table-caption: Tabelle
+:!example-caption:
+// folders
+:imagesdir: images

@@ -1,0 +1,29 @@
+= Risikoliste: {project-name}
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+
+In diesem Dokument sind die wesentlichen Risiken des Projekts aufgeführt.
+
+=== Attribute
+
+Dabei werden folgende Attribute verwendet:
+
+* *Typ*: Ressourcen, Geschäftlich, Technisch, Zeitlich
+* *Auswirkung (IMP)*: Wert zwischen 1 (niedrig) und 5 (hoch), der die Auswirkungen auf das Projekt angibt, wenn das Risiko eintritt
+* *Wahrscheinlichkeit (PRB)*: Prozentangabe für die Eintrittswahrscheinlichkeit des Risikos
+* *Stärke (MAG)*: Produkt aus Auswirkung und Wahrscheinlichkeit (damit kann die Liste sortiert werden)
+
+== Risiken
+
+Die Risiken sind in folgender Tabelle dargestellt. Das Datum des Dokuments oben gibt an, wann die Risikoliste zuletzt aktualisiert wurde.
+
+[%header, format="csv", separator=";"]
+|===
+include::risks.csv[]
+|===
+
+
+

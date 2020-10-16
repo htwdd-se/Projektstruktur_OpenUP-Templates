@@ -1,0 +1,36 @@
+= Glossar: {project-name}
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+
+== Einführung
+In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fachdomäne) der <Projektthema-Systems> definiert. Zur besseren Übersichtlichkeit sind Begriffe, Abkürzungen und Datendefinitionen gesondert aufgeführt.
+
+== Begriffe
+[%header]
+|===
+|Begriff|	Definition und Erläuterung|	Synonyme
+//|Kommissionierung|Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags|(keine))|
+|xx|xx|xx|
+|===
+
+
+== Abkürzungen und Akronyme
+[%header]
+|===
+|Abkürzung|	Bedeutung|	Erläuterung
+//|UP|Unified Process|Vorgehensmodell für die Softwareentwicklung|
+|xx|xx|xx|
+|===
+
+== Verzeichnis der Datenstrukturen
+[%header]
+|===
+|Bezeichnung|	Definition |	Format | Gültigkeitsregeln | Aliase
+|Anmeldedaten|Zusammensetzung von Benutzername und Passwort.|String|Emailadresse muss @-Zeichen und Punkt enthalten.|Login
+|xx|xx|xx|xx|xx|
+|===
+
+

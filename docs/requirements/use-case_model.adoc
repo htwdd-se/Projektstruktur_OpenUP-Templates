@@ -1,0 +1,38 @@
+= Use-Case Model: {project-name}
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+:toclevels: 2
+
+
+== Allgemeine Informationen
+// ...
+
+== Use Cases
+//Fügen Sie nachfolgend eine Liste aller Use-Cases per Include ein.
+//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem usecase_spec.adoc Template basiert.
+<<<
+include::use_case_01.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_02.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_03.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_04.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_05.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_06.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_07.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_08.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_09.inc.adoc[leveloffset=+1]
+//<<<
+//include::use_case_10.inc.adoc[leveloffset=+1]
+
+
+
+//lines=1..1;4..-1,leveloffset=+1

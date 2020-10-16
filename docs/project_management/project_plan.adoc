@@ -1,0 +1,47 @@
+= Projektplan: {project-name}
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+== Einführung
+//Briefly describe the content of the project plan.
+
+== Projektorganisation
+//Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
+
+== Praktiken und Bewertung
+//Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
+
+== Meilesteine und Ziele
+//Define and describe the high-level objectives for the iterations and define milestones. For example, use the following table to lay out the schedule. If needed you may group the iterations into phases and use a separate table for each phase
+
+
+[%header, cols="1,3a,2,1"]
+|===
+| Iteration
+| Primary objectives +
+(risks and use case scenarios)
+| Scheduled start or milestone
+| Target velocity
+
+| I1
+|
+* Mitigate Risk1
+* Develop Use Case 3, Scenario 2
+| Date from/Date to
+| 15
+
+| I2
+|
+* Mitigate Risk 2
+* Develop Use Case 1, Scenario 2
+| Date from/Date to
+| 16
+|===
+
+== Deployment
+//Outline the strategy for deploying the software (and its updates) into the production environment.
+
+== Erkenntnisse (Lessons learned)
+//List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
