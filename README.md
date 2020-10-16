@@ -1,14 +1,22 @@
 # Vorlage Projektstruktur & OpenUP-Templates
 
-Das Repository enthält die Vorlage einer Projektstruktur und Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineerig I benötigt.
-
-Inhalt:
+Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineerig I und II benötigt. Im Detrail wären dies:
 
 - Vorlage einer Projektstruktur
 - Templates der benötigten OpenUP-Dokumente (AsciiDoc-Format)
 - Vorlage für die Belegabgabe in SE I (AsciiDoc-Format)
 
 _Hinweis: Dieses Repository enthält keinen Code._
+
+
+
+**Inhaltsverzeichnis**
+
+- [Unified Process - Templates](#unified-process---templates)
+- [Belegabgabe in SE I](#belegabgabe-in-se-i)
+- [Lizenz](#lizenz)
+
+
 
 ## Unified Process - Templates
 Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem Open Unified Process. Die Vorlagen basieren auf den Templates der offiziellen OpenUP Dokumentation in der Version 1.5x aus dem Eclipse Process Framework (EPF) und wurden bis auf geringe inhaltliche / strukturelle Anpassungen lediglich auf deutsch übersetzt.
