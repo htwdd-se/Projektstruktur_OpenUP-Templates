@@ -7,7 +7,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 In diesem Dokument sind die wesentlichen Risiken des Projekts aufgeführt.
 
-=== Attribute
+== Attribute
 
 Dabei werden folgende Attribute verwendet:
 
