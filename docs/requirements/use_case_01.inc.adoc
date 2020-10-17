@@ -15,15 +15,15 @@
 
 . Der Use Case beginnt, wenn <akteur> <macht>…
 . <Standardablauf Schritt 1>
-. 	… 
+. 	…
 . <Standardablauf Schritt n>
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 ==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann 
-. <Ablauf beschreiben>  
+Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+. <Ablauf beschreiben>
 . Der Use Case wird im Schritt <y> fortgesetzt.
 
 === Unterabläufe (subflows)

@@ -8,7 +8,7 @@ Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.d
 include::../docs/_includes/default-attributes.inc.adoc[]
 :doctype: book
 :toc:
-:toclevels: 3
+:toclevels: 2
 :toc-title: Inhaltsverzeichnis
 :sectnums:
 :icons: font
