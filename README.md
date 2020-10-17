@@ -2,7 +2,7 @@
 
 Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineerig I und II benötigt. Im Detail wären dies:
 
-- Vorlage einer Projektstruktur
+- Projektstruktur anhand der Work Products im OpenUP
 - Templates der benötigten OpenUP-Dokumente (AsciiDoc-Format)
 - Vorlage für die Belegabgabe in SE I (AsciiDoc-Format)
 
@@ -11,25 +11,38 @@ _Hinweis: Dieses Repository enthält keinen Code._
 
 
 **Inhaltsverzeichnis**
-
 - [Projektstruktur](#projektstruktur)
-- [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
 - [Unified Process - Templates](#unified-process---templates)
+- [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
 - [Belegabgabe in SE I](#belegabgabe-in-se-i)
 - [Lizenz](#lizenz)
 
 
 ## Projektstruktur
-Die Projektstruktur im Verzeichnis **docs** orientiert sich an den Work Products im OpenUP.
-
-## Hinweise zu AsciiDoc
-Die Datei _default-attributes.inc.adoc_ im **docs/\_includes** Verzeichnis enthält die gemeinsamen Dokumentenattribute für alle AsciiDoc-Dokumente. In jedem Dokument selbst können, nach dem include der Datei, entsprechend noch extra benötigte Attribute mit aufgenommen werden.
-
-In dieser Datei ist am Anfang der **Projektname** definiert, welcher in jedem Dokument im Title verwendet wird. Ersetzen Sie hier bitte `<Projektname (T00)>` mit Ihrem Belegthema:
+Die Projektstruktur im Verzeichnis **docs** orientiert sich an den <ins>Work Products</ins> im OpenUP und den für die <ins>Abgabe im SE 1 Beleg</ins> geforderten Dokumenten.
 
 ```
-// Meta
-:project-name: <Projektname (T00)>
+docs
+├── architecture
+│   └── architecture_notebook.adoc
+├── deployment
+├── development
+│   └── design.adoc
+├── environment
+├── project_management
+│   ├── iteration_plan_01.adoc
+│   ├── project_plan.adoc
+│   ├── risk_list.adoc
+│   └── risks.csv
+├── requirements
+│   ├── domain_model.adoc
+│   ├── glossary.adoc
+│   ├── system-wide_requirements.adoc
+│   ├── use-case_model.adoc
+│   ├── use_case_01.inc.adoc
+│   └── vision.adoc
+└── test
+    └── test_cases.adoc
 ```
 
 
@@ -43,6 +56,33 @@ Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem
 ### Referenzen
 * [Eclipse Process Framework](https://www.eclipse.org/epf/downloads/configurations/pubconfig_downloads.php)
 * [Open Unified Process 1.5 Dokumentation](https://www2.htw-dresden.de/~anke/openup/index.htm)
+
+## Hinweise zu AsciiDoc
+Die Datei _default-attributes.inc.adoc_ im **docs/\_includes** Verzeichnis enthält die gemeinsamen Dokumentenattribute für alle AsciiDoc-Dokumente. In jedem Dokument selbst können, nach dem include der Datei, entsprechend noch extra benötigte Attribute mit aufgenommen werden.
+
+### Projektnamen definieren
+
+In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** definiert, welcher in jedem Dokument im Title verwendet wird. Ersetzen Sie hier bitte `<Projektname (T00)>` mit Ihrem Belegthema:
+
+```
+// Meta
+:project-name: <Projektname (T00)>
+```
+
+### Bilder einbinden
+
+In dem Dokumentenattribut `:imagesdir: images` ist das Standardverzeichnis für die Bilder festgelegt. Somit reicht es, in den jeweiligen Dokumenten, die Bilder ohne Angabe des **images** Verzeichnis einzubinden:
+
+```
+requirements
+├── images
+│   └── example.jpg
+└── vision.adoc
+```
+```
+// vision.adoc
+image::example.jpg[Beispielbild]
+```
 
 
 ## Belegabgabe in SE I
