@@ -1,6 +1,6 @@
 # Vorlage Projektstruktur & OpenUP-Templates
 
-Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineerig I und II benötigt. Im Detrail wären dies:
+Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineerig I und II benötigt. Im Detail wären dies:
 
 - Vorlage einer Projektstruktur
 - Templates der benötigten OpenUP-Dokumente (AsciiDoc-Format)
@@ -12,10 +12,25 @@ _Hinweis: Dieses Repository enthält keinen Code._
 
 **Inhaltsverzeichnis**
 
+- [Projektstruktur](#projektstruktur)
+- [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
 - [Unified Process - Templates](#unified-process---templates)
 - [Belegabgabe in SE I](#belegabgabe-in-se-i)
 - [Lizenz](#lizenz)
 
+
+## Projektstruktur
+Die Projektstruktur im Verzeichnis **docs** orientiert sich an den Work Products im OpenUP.
+
+## Hinweise zu AsciiDoc
+Die Datei _default-attributes.inc.adoc_ im **docs/\_includes** Verzeichnis enthält die gemeinsamen Dokumentenattribute für alle AsciiDoc-Dokumente. In jedem Dokument selbst können, nach dem include der Datei, entsprechend noch extra benötigte Attribute mit aufgenommen werden.
+
+In dieser Datei ist am Anfang der **Projektname** definiert, welcher in jedem Dokument im Title verwendet wird. Ersetzen Sie hier bitte `<Projektname (T00)>` mit Ihrem Belegthema:
+
+```
+// Meta
+:project-name: <Projektname (T00)>
+```
 
 
 ## Unified Process - Templates
