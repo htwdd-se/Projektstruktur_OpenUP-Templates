@@ -132,7 +132,7 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
     ```sh
     $ asciidoctor -r asciidoctor-pdf -b pdf se1_belegabgabe_t00.adoc
     ```
-5. Prüfen Sie, dass das korrekte Projektthema, alle Teammitglieder und Abgabedatum auf dem Deckblatt stehen und dass ebefalls alle erforderlichen Dokumente mit ihren Inhalten enthalten sind.
+5. Prüfen Sie, dass das korrekte **Projektthema**, alle **Teammitglieder** und das **Abgabedatum** auf dem Deckblatt stehen und dass ebefalls alle erforderlichen **Dokumente** mit ihren Inhalten enthalten sind.
 
 6. Geben Sie das finale Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ über den mitgeteilten Weg ab.
 
