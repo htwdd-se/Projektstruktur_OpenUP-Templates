@@ -24,23 +24,23 @@ Die Projektstruktur im Verzeichnis **docs** orientiert sich an den <ins>Work Pro
 ```
 docs
 ├── architecture
-│   └── architecture_notebook.adoc
+│   └── architecture_notebook.adoc
 ├── deployment
 ├── development
-│   └── design.adoc
+│   └── design.adoc
 ├── environment
 ├── project_management
-│   ├── iteration_plan_01.adoc
-│   ├── project_plan.adoc
-│   ├── risk_list.adoc
-│   └── risks.csv
+│   ├── iteration_plan_01.adoc
+│   ├── project_plan.adoc
+│   ├── risk_list.adoc
+│   └── risks.csv
 ├── requirements
-│   ├── domain_model.adoc
-│   ├── glossary.adoc
-│   ├── system-wide_requirements.adoc
-│   ├── use-case_model.adoc
-│   ├── use_case_01.inc.adoc
-│   └── vision.adoc
+│   ├── domain_model.adoc
+│   ├── glossary.adoc
+│   ├── system-wide_requirements.adoc
+│   ├── use-case_model.adoc
+│   ├── use_case_01.inc.adoc
+│   └── vision.adoc
 └── test
     └── test_cases.adoc
 ```
@@ -87,14 +87,14 @@ image::example.jpg[Beispielbild]
 
 ## Belegabgabe in SE I
 
-Im Verzeichnis **belegabgabe_se1** finden Sie die Vorlage-Datei *se1_belegabgabe_t00.adoc*, welche alle Ihre erzeugten Dokumente für die Abgabe als PDF in <ins>ein</ins> Dokument bündelt.
+Im Verzeichnis **belegabgabe_se1** finden Sie die Vorlagedatei *se1_belegabgabe_t00.adoc*, welche alle Ihre erzeugten Dokumente für die Abgabe als PDF in <ins>ein</ins> Dokument bündelt.
 
-(Nutzen Sie nicht die Projektvorlage **Projektstruktur_OpenUP-Templates**, kopieren sie sich die Vorlage-Datei *se1_belegabgabe_t00.adoc* in Ihr Projektrepository)
+(Nutzen Sie nicht die Projektvorlage **Projektstruktur_OpenUP-Templates**, kopieren sie sich die Vorlagedatei *se1_belegabgabe_t00.adoc* in Ihr Projektrepository)
 
 Folgende Schritte sind für eine Belegabgabe durchzuführen:
 
-1. Ändern Sie die Themennummer **t00** in der Vorlage-Datei *se1_belegabgabe_t00.adoc* in Ihre Themennummer (t01, t02, ...).
-3. Inhalt der Vorlage-Datei anpassen:
+1. Ändern Sie die Themennummer **t00** in der Vorlagedatei *se1_belegabgabe_t00.adoc* in Ihre Themennummer (t01, t02, ...).
+3. Inhalt der Vorlagedatei anpassen:
     - Ist in Ihrem Projekt in der Datei _docs/\_includes/default-attributes.inc.adoc_ der Projektname im Attribut `:project-name:` nicht gesetzt bzw. nutzen Sie eine andere Struktur, können Sie im Dokumententitel nach dem `:` das `{project-name}` mit Ihrem Projektthema ersetzen:
 
         ```
