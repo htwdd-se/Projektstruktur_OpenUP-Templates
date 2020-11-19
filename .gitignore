@@ -3,3 +3,4 @@
 *.html
 *.pdf
 .asciidoctor/
+**/images/diagrams/
