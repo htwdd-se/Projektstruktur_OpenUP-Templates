@@ -5,7 +5,9 @@ Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.d
 // --- 3. Abgabedatum --------------------------
 01. Januar 2020
 // ---------------------------------------------
-include::../docs/_includes/default-attributes.inc.adoc[]
+:docs: ../docs
+include::{docs}/_includes/default-attributes.inc.adoc[]
+// ---
 :doctype: book
 :toc:
 :toclevels: 2
@@ -22,7 +24,8 @@ include::../docs/_includes/default-attributes.inc.adoc[]
 :table-caption: Tabelle
 :listing-caption: Listing
 // Folders
-:docs: ../docs
+:imagesdir-reset: {imagesdir}
+:docs-test2: {docs}/test2
 :docs-requirements: {docs}/requirements
 :docs-project-management: {docs}/project_management
 :docs-architecture: {docs}/architecture
@@ -33,12 +36,15 @@ include::../docs/_includes/default-attributes.inc.adoc[]
 
 // --- 4. include Pfade anpassen ---------------
 
+// --- Technische Spezifikation ---
 = Technische Spezifikation
 * Vision
 * Use Case Model (inkl. Wireframes, sofern vorhanden)
 * System-wide Requirements
 * Glossar
 * Domänenmodel
+
+:imagesdir: {docs-requirements}/images
 
 // Vision
 include::{docs-requirements}/Vision.adoc[lines=1..1;4..-1,leveloffset=+1]
@@ -56,10 +62,13 @@ include::{docs-requirements}/glossary.adoc[lines=1..1;4..-1,leveloffset=+1]
 include::{docs-requirements}/domain_model.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
+// --- Projektdokumentation ---
 = Projektdokumentation
 * Projektplan
 * Risikoliste
 * Iteration Plan (für zwei ausgewählte Iterationen)
+
+:imagesdir: {docs-project-management}/images
 
 // Projektplan
 include::{docs-project-management}/project_plan.adoc[lines=1..1;4..-1,leveloffset=+1]
@@ -77,19 +86,25 @@ include::{docs-project-management}/iteration_plan_01.adoc[lines=1..1;4..-1,level
 //include::{docs-project-management}/iteration_plan_03.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
+// --- Entwurfsdokumentation ---
 = Entwurfsdokumentation
 * Architektur-Notizbuch
 * Test Cases
 * Design
 
 // Architektur-Notizbuch
+:imagesdir: {docs-architecture}/images
 include::{docs-architecture}/architecture_notebook.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Test Cases
+:imagesdir: {docs-test}/images
 include::{docs-test}/test_cases.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Design
+:imagesdir: {docs-development}/images
 include::{docs-development}/design.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
 // ---------------------------------------------
+
+:imagesdir: {imagesdir-reset}/images

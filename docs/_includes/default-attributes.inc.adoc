@@ -13,7 +13,9 @@
 :table-caption: Tabelle
 :!example-caption:
 // folders
-:imagesdir: images
+ifndef::imagesdir[:imagesdir: images]
+:diagramsdir: diagrams
+:plantumlsdir: plantuml
 // Hyphenation for PDF dokumente
 :lang: DE
 :hyphens:
