@@ -8,8 +8,16 @@ include::../_includes/default-attributes.inc.adoc[]
 == Allgemeine Informationen
 // ...
 
-//Fügen Sie nachfolgend eine Liste aller Use-Cases per Include ein.
-//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem usecase_spec.adoc Template basiert.
+== Identifizierte Use Cases
+// Liste aller identifizierten Use Cases (priorisiert)
+* *UC01*: ...
+* *UC02*: ...
+
+== Use Case Diagramm
+// ...
+
+//Fügen Sie nachfolgend alle detailierten Use-Cases per Include ein.
+//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem use_case_01.inc.adoc Template basiert.
 <<<
 include::use_case_01.inc.adoc[]
 //<<<
