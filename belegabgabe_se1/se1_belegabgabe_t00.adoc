@@ -56,6 +56,7 @@ include::{docs-requirements}/use-case_model.adoc[lines=1..1;4..-1,leveloffset=+1
 include::{docs-requirements}/system-wide_requirements.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Glossar
+[#glossary]
 include::{docs-requirements}/glossary.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Domänenmodell
