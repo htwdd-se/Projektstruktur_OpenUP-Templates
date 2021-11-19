@@ -11,26 +11,34 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 == Begriffe
 [%header]
 |===
-|Begriff|	Definition und Erläuterung|	Synonyme
-//|Kommissionierung|Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags|(keine))|
-|xx|xx|xx|
+| Begriff | Definition und Erläuterung | Synonyme
+//| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
+| xx | xx | xx
 |===
 
 
 == Abkürzungen und Akronyme
 [%header]
 |===
-|Abkürzung|	Bedeutung|	Erläuterung
-//|UP|Unified Process|Vorgehensmodell für die Softwareentwicklung|
-|xx|xx|xx|
+| Abkürzung | Bedeutung | Erläuterung
+//| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
+| xx | xx | xx
 |===
 
 == Verzeichnis der Datenstrukturen
 [%header]
 |===
-|Bezeichnung|	Definition |	Format | Gültigkeitsregeln | Aliase
-|Anmeldedaten|Zusammensetzung von Benutzername und Passwort.|String|Emailadresse muss @-Zeichen und Punkt enthalten.|Login
-|xx|xx|xx|xx|xx|
+| Bezeichnung | Definition | Format | Gültigkeitsregeln | Aliase
+
+| Anmeldedaten
+| Zusammensetzung von Benutzername und Passwort.
+| String
+| Emailadresse muss `@`-Zeichen und `.` Punkt enthalten.
+| Login
+
+| xx
+| xx
+| xx
+| xx
+| xx
 |===
-
-

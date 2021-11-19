@@ -7,6 +7,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 In diesem Dokument sind die wesentlichen Risiken des Projekts aufgeführt.
 
+
 == Attribute
 
 Dabei werden folgende Attribute verwendet:
@@ -19,7 +20,6 @@ Dabei werden folgende Attribute verwendet:
 == Risiken
 
 Die Risiken sind in folgender Tabelle: <<table_risks>> dargestellt. Das Datum des Dokuments oben gibt an, wann die Risikoliste zuletzt aktualisiert wurde.
-
 
 // Die inkludierte csv-Datei "risks.csv" verwendet `;` Semmikolons als Trennzeichen. Achten Sie beim Export als csv-Datei auf das Angeben des entsprechenden Trennzeichens. Verwenden Sie stattdessen `,` Kommas, kann das Tabellenattribut `separator=` weggelassen werden oder muss entprechend angepasst werden.
 
@@ -38,5 +38,3 @@ include::risks.csv[]
 // PDF-Export: Seite zurück zum Hochformat
 [.portrait]
 <<<
-
-

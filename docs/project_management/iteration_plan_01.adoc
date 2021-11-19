@@ -10,8 +10,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 [%header, cols="3,1"]
 |===
-| Meilenstein
-| Datum
+| Meilenstein | Datum
 
 | Beginn der Iteration | -
 | ... | -
@@ -37,7 +36,8 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 [%header, cols="3,1,1,1,2,1,1,1,1"]
 |===
-| Aufgabe bzw. Beschreibung | Priorität |Schätzung der Größe (Punkte) |Status | Referenzen |geplante Iteration | Zugewiesen (Name) | Gearbeite Stunden | Schätzung der verbleibenden Stunden
+| Aufgabe bzw. Beschreibung | Priorität | Schätzung der Größe (Punkte) |Status | Referenzen | geplante Iteration | Zugewiesen (Name) | Gearbeite Stunden | Schätzung der verbleibenden Stunden
+
 | x | x | x | x | x | x | x | x | x
 |===
 
@@ -48,12 +48,14 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 [%header, cols="2,1,3"]
 |===
 | Problem | Status | Notizen
+
 | x | x | x
 |===
 
 
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
+
 Beispiele:
 
 * 97% der Testfälle auf Systemebene sind erfolgreich.
@@ -62,11 +64,12 @@ Beispiele:
 
 
 == Assessment
-//In diesem Abschnitt werden die Ergebnisse und Maßnahmen der Bewertung erfasst und kommunziert. Die Bewertung wird üblicherweise am Ende jeder Iteration durchgeführt. Wenn Sie diese Bewertungen nicht machen, ist das Team möglicherweise nicht in der Lage, die eigene Arbeitsweise ("Way of Working") zu verbessern.
+//In diesem Abschnitt werden die Ergebnisse und Maßnahmen der Bewertung erfasst und kommuniziert. Die Bewertung wird üblicherweise am Ende jeder Iteration durchgeführt. Wenn Sie diese Bewertungen nicht machen, ist das Team möglicherweise nicht in der Lage, die eigene Arbeitsweise ("Way of Working") zu verbessern.
 
 [%header, cols="1,3"]
 |===
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
+
 | Assessment Datum | ...
 | Teilnehmer | ...
 | Projektstatus	| Zum Beispiel ausgedrückt als rot, gelb oder grün.
