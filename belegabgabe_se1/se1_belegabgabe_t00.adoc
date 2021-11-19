@@ -23,6 +23,8 @@ include::{docs}/_includes/default-attributes.inc.adoc[]
 :figure-caption: Abbildung
 :table-caption: Tabelle
 :listing-caption: Listing
+:!example-caption:
+:experimental:
 // Folders
 :imagesdir-reset: {imagesdir}
 :docs-test2: {docs}/test2

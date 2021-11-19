@@ -8,14 +8,16 @@
 :icons: font
 //:source-highlighter: highlightjs
 :source-highlighter: rouge
+:rouge-style: github
 :xrefstyle: full
 :figure-caption: Abbildung
 :table-caption: Tabelle
 :!example-caption:
+:experimental:
 // folders
 ifndef::imagesdir[:imagesdir: images]
-:diagramsdir: diagrams
-:plantumlsdir: plantuml
+ifndef::diagramsdir[:diagramsdir: diagrams]
+ifndef::plantumlsdir[:plantumlsdir: plantuml]
 // Hyphenation for PDF dokumente
 :lang: DE
 :hyphens:
