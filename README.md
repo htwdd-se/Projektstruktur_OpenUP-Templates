@@ -127,8 +127,12 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
         ```
         > Beim `include` wird über die `lines=1..1;4..-1` Angabe jeweils die 1. und alles ab der 4. Zeile übernommen. Jedes Dokument ist eigenständig und somit werden über die Zeilen 2 und 3 die jeweiligen Authoren und das Versionsdatum nicht mit übernommen.
 
-4. Erzeugen Sie das Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ ([Hinweise aus dem Praktikum](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-2.html#_aufgabe_2_1_htmlpdf)):
+4. Erzeugen Sie das Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ ([Hinweise aus dem Praktikum](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-2.html#_2_generieren_des_ausgabeformates)):
 
+    ```sh
+    $ asciidoctor-pdf se1_belegabgabe_t00.adoc
+    ```
+    oder:
     ```sh
     $ asciidoctor -r asciidoctor-pdf -b pdf se1_belegabgabe_t00.adoc
     ```
