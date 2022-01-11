@@ -1,0 +1,7 @@
+# Syntax: https://git-scm.com/docs/gitignore
+
+# Asciidoctor
+**/.asciidoctor/
+**/images/diagrams/
+*.pdf
+*.html
