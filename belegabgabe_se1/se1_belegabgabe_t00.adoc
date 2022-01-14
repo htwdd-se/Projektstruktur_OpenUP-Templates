@@ -49,7 +49,7 @@ include::{docs}/_includes/default-attributes.inc.adoc[]
 :imagesdir: {docs-requirements}/images
 
 // Vision
-include::{docs-requirements}/Vision.adoc[lines=1..1;4..-1,leveloffset=+1]
+include::{docs-requirements}/vision.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Use Case Model (inkludiert selbst die einzelnen usecase_spec_x.adoc Dateien)
 include::{docs-requirements}/use-case_model.adoc[lines=1..1;4..-1,leveloffset=+1]
