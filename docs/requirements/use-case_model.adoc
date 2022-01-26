@@ -24,7 +24,7 @@ include::../_includes/default-attributes.inc.adoc[]
 ////
 Mit `<<<` wird im PDF ein Seitenumbruch erzeugt.
 Zwischen `include::...` und dem darauf folgenden `<<<` muss sich eine Leerzeile befinden. Fehlt diese, werden unter Umständen die erste Überschriften aus der inkludierten Datei nicht korrekt übernommen.
-Ein `include` entfernt am Anfang und Ende eine möglich Leerzeile, was in Komnbination mit `<<<` zu Fehlern führen kann.
+Ein `include` entfernt am Anfang und Ende eine möglich Leerzeile, was in Kombination mit `<<<` zu Fehlern führen kann.
 ////
 
 <<<
