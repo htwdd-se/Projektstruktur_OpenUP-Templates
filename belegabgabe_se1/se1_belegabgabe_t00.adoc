@@ -19,7 +19,7 @@ include::{docs}/_includes/default-attributes.inc.adoc[]
 :rouge-style: github
 :xrefstyle: full
 :experimental:
-:chapter-label:
+:chapter-signifier:
 :figure-caption: Abbildung
 :table-caption: Tabelle
 :listing-caption: Listing

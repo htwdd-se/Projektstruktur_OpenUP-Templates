@@ -68,6 +68,7 @@ In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** def
 // Meta
 :project-name: <Projektname (T00)>
 ```
+* `T` ... steht als Platzhalter für `I` ein internes bzw. `E` für ein externes Projektthema
 
 ### Bilder einbinden
 
@@ -93,7 +94,7 @@ Im Verzeichnis **belegabgabe_se1** finden Sie die Vorlagedatei *se1_belegabgabe_
 
 Folgende Schritte sind für eine Belegabgabe durchzuführen:
 
-1. Ändern Sie die Themennummer **t00** in der Vorlagedatei *se1_belegabgabe_t00.adoc* in Ihre Themennummer (t01, t02, ...).
+1. Ändern Sie die Themennummer **t00** in der Vorlagedatei *se1_belegabgabe_t00.adoc* in Ihre Themennummer (i01, i02, ..., e01, e02, ...).
 3. Inhalt der Vorlagedatei anpassen:
     - Ist in Ihrem Projekt in der Datei _docs/\_includes/default-attributes.inc.adoc_ der Projektname im Attribut `:project-name:` nicht gesetzt bzw. nutzen Sie eine andere Struktur, können Sie im Dokumententitel nach dem `:` das `{project-name}` mit Ihrem Projektthema ersetzen:
 
