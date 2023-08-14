@@ -143,4 +143,9 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
 
 
 ## Lizenz
-Sämtliche Inhalte dieses Repositories unterliegen der [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) Lizenz.
+
+### Dokumentation
+Die OpenUP Templates im Ordner `docs` und `belegabgabe_se1` unterliegen der [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) Lizenz.
+
+### Quellcode / Anderes
+Für das Repository bzw. die entstehende Software kann/muss eine separate Lizenz festgelegt werden.
