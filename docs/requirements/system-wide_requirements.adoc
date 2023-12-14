@@ -37,13 +37,19 @@ NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern m
 
 == Zusätzliche Anforderungen
 
-=== Einschränkungen
+=== Technische Einschränkungen
 //Angaben ergänzen, nicht relevante Unterpunkte streichen oder auskommentieren
 * Ressourcenbegrenzungen
 * zu nutzende Komponenten / Bibliotheken / Frameworks
 * Vorgaben für die Programmiersprache
 * zu unterstützende Plattformen / Betriebssysteme
 * Physische Begrenzungen für Hardware, auf der das System betrieben werden soll
+
+=== Interface Anforderungen
+// Describe both the user interface and interfaces with external systems.
+
+=== Geschäftsregeln
+// Besides technical requirements, also consider the particular business domain in which the system needs to fit.
 
 === Organisatorische Randbedingungen
 //Angaben ergänzen, nicht relevante Unterpunkte streichen oder auskommentieren
