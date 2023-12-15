@@ -70,21 +70,27 @@ In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** def
 ```
 * `T` ... steht als Platzhalter für `I` ein internes bzw. `E` für ein externes Projektthema
 
-### Bilder einbinden
+### Bilder und Diagramme einbinden
 
-In dem Dokumentenattribut `:imagesdir: images` ist das Standardverzeichnis für die Bilder festgelegt. Somit reicht es, in den jeweiligen Dokumenten, die Bilder ohne Angabe des **images** Verzeichnis einzubinden:
+In dem Dokumentenattribut `:imagesdir: images` ist das Standardverzeichnis **images** für die Bilder festgelegt. Somit reicht es, in den jeweiligen Dokumenten, die Bilder ohne Angabe des **images** Verzeichnis einzubinden:
 
-```
-requirements
-├── images
-│   └── example.jpg
-└── vision.adoc
-```
 ```
 // vision.adoc
 image::example.jpg[Beispielbild]
 ```
+In dem Dokumentenattribut `:plantumlsdir: plantuml` ist das Standardverzeichnis **plantuml** für die Diagramme in plantUML-Notation festgelegt. Im Dokumentenattribut `:diagramsdir: diagrams` ist das Verzeichnis für die generierten Diagramme angegegben, welches unter dem `:imagesdir:` angelegt wird.
 
+```
+requirements
+├── images
+│   ├── diagrams
+│   │   └── diagram.jpg
+│   └── example.jpg
+├── plantuml
+│   └── diagram.puml
+├── ...
+└── vision.adoc
+```
 
 ## Belegabgabe in SE I
 
