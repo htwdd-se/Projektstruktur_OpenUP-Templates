@@ -101,7 +101,7 @@ Im Verzeichnis **belegabgabe_se1** finden Sie die Vorlagedatei *se1_belegabgabe_
 Folgende Schritte sind für eine Belegabgabe durchzuführen:
 
 1. Ändern Sie die Themennummer **t00** in der Vorlagedatei *se1_belegabgabe_t00.adoc* in Ihre Themennummer (i01, i02, ..., e01, e02, ...).
-3. Inhalt der Vorlagedatei anpassen:
+2. Inhalt der Vorlagedatei anpassen:
     - Ist in Ihrem Projekt in der Datei _docs/\_includes/default-attributes.inc.adoc_ der Projektname im Attribut `:project-name:` nicht gesetzt bzw. nutzen Sie eine andere Struktur, können Sie im Dokumententitel nach dem `:` das `{project-name}` mit Ihrem Projektthema ersetzen:
 
         ```
@@ -134,18 +134,26 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
         ```
         > Beim `include` wird über die `lines=1..1;4..-1` Angabe jeweils die 1. und alles ab der 4. Zeile übernommen. Jedes Dokument ist eigenständig und somit werden über die Zeilen 2 und 3 die jeweiligen Authoren und das Versionsdatum nicht mit übernommen.
 
-4. Erzeugen Sie das Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ ([Hinweise aus dem Praktikum](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-2.html#_2_generieren_des_ausgabeformates)):
+3. Erzeugen Sie das Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ ([Hinweise aus dem Praktikum](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-02.html#_2_generieren_des_ausgabeformates)):
 
     ```sh
     $ asciidoctor-pdf se1_belegabgabe_t00.adoc
+    ```
+    ```sh
+    # mit PlantUML
+    $ asciidoctor-pdf -r asciidoctor-diagram se1_belegabgabe_t00.adoc
     ```
     oder:
     ```sh
     $ asciidoctor -r asciidoctor-pdf -b pdf se1_belegabgabe_t00.adoc
     ```
-5. Prüfen Sie, dass das korrekte **Projektthema**, alle **Teammitglieder** und das **Abgabedatum** auf dem Deckblatt stehen und dass ebefalls alle erforderlichen **Dokumente** mit ihren Inhalten enthalten sind.
+    ```sh
+    # mit PlantUML
+    $ asciidoctor -r asciidoctor-diagram -r asciidoctor-pdf -b pdf se1_belegabgabe_t00.adoc
+    ```
+4. Prüfen Sie, dass das korrekte **Projektthema**, alle **Teammitglieder** und das **Abgabedatum** auf dem Deckblatt stehen und dass ebefalls alle erforderlichen **Dokumente** mit ihren Inhalten enthalten sind.
 
-6. Geben Sie das finale Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ über den mitgeteilten Weg ab.
+5. Geben Sie das finale Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ über den mitgeteilten Weg ab.
 
 
 ## Lizenz
