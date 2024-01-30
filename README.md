@@ -57,18 +57,22 @@ Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem
 * [Eclipse Process Framework](https://www.eclipse.org/epf/downloads/configurations/pubconfig_downloads.php)
 * [Open Unified Process 1.5 Dokumentation](https://www2.htw-dresden.de/~anke/openup/index.htm)
 
-## Hinweise zu AsciiDoc
+## Hinweise zu den AsciiDoc-Vorlagen
 Die Datei _default-attributes.inc.adoc_ im **docs/\_includes** Verzeichnis enthält die gemeinsamen Dokumentenattribute für alle AsciiDoc-Dokumente. In jedem Dokument selbst können, nach dem include der Datei, entsprechend noch extra benötigte Attribute mit aufgenommen werden.
 
-### Projektnamen definieren
+### Projektname und Projekt-Systemname definieren
 
-In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** definiert, welcher in jedem Dokument im Title verwendet wird. Ersetzen Sie hier bitte `<Projektname (T00)>` mit Ihrem Belegthema:
+In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** und der **Systemname** als Attribute global definiert. Diese können über `{project-name}` und `{project-system-name}` in der Dokumentation an beliebiger Stelle verwendet werden.
+* **Projektname** `:project-name:`: Enthält das Belegthema inklusiver der Projekt-ID
+* **Systemname** `:project-system-name:`: Enthält den Systemnamen der Software
 
 ```
 // Meta
 :project-name: <Projektname (T00)>
+:project-system-name: <Projektname-System>
 ```
 * `T` ... steht als Platzhalter für `I` ein internes bzw. `E` für ein externes Projektthema
+* `<Platzhalter>` ... die Platzhalter inkl. der `<` und `>` ersetzen
 
 ### Bilder und Diagramme einbinden
 
