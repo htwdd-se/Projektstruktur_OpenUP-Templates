@@ -60,7 +60,7 @@ Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem
 ## Hinweise zu den AsciiDoc-Vorlagen
 Die Datei _default-attributes.inc.adoc_ im **docs/\_includes** Verzeichnis enthält die gemeinsamen Dokumentenattribute für alle AsciiDoc-Dokumente. In jedem Dokument selbst können, nach dem include der Datei, entsprechend noch extra benötigte Attribute mit aufgenommen werden.
 
-### Projektname und Projekt-Systemname definieren
+### Projektname und Systemname definieren
 
 In der _default-attributes.inc.adoc_ Datei ist am Anfang der **Projektname** und der **Systemname** als Attribute global definiert. Diese können über `{project-name}` und `{project-system-name}` in der Dokumentation an beliebiger Stelle verwendet werden.
 * **Projektname** `:project-name:`: Enthält das Belegthema inklusiver der Projekt-ID
