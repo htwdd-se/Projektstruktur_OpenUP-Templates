@@ -13,7 +13,7 @@ _Hinweis: Dieses Repository enthält keinen Code._
 **Inhaltsverzeichnis**
 - [Projektstruktur](#projektstruktur)
 - [Unified Process - Templates](#unified-process---templates)
-- [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
+- [Hinweise zu den AsciiDoc-Vorlagen](#hinweise-zu-den-asciidoc-vorlagen)
 - [Belegabgabe in SE I](#belegabgabe-in-se-i)
 - [Lizenz](#lizenz)
 
