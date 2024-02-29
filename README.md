@@ -6,9 +6,8 @@ Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente
 - Templates der benötigten OpenUP-Dokumente (AsciiDoc-Format)
 - Vorlage für die Belegabgabe in SE I (AsciiDoc-Format)
 
-_Hinweis: Dieses Repository enthält keinen Code._
-
-
+> [!NOTE]
+> Dieses Repository enthält keinen Code.
 
 **Inhaltsverzeichnis**
 - [Projektstruktur](#projektstruktur)
