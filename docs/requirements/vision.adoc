@@ -17,6 +17,7 @@ Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das v
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
 Siehe <<#glossary, Glossar>>.
+//Siehe <<./glossary.adoc#glossary, Glossar>>.
 
 === Referenzen
 (hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
@@ -35,7 +36,7 @@ Siehe <<#glossary, Glossar>>.
 | Das Problem | [beschreiben Sie das Problem]
 | betrifft | [die Stakeholder, die vom Problem betroffen sind]
 | die Auswirkung davon ist | [welche Auswirkungen hat das Problem?]
-| eine erfolgreiche Lösung wäre | Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
+| eine erfolgreiche Lösung wäre | [Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
 |===
 
 ////
@@ -115,7 +116,7 @@ Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigra
 |===
 
 
-== Zusätzliche Produktanforderungen
+=== Zusätzliche Produktanforderungen
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 Hinweise:
 
