@@ -27,6 +27,8 @@ geforderten Dokumenten.
 
 ```text
 docs
+├── _includes
+│   └── default-attributes.inc.adoc
 ├── architecture
 │   └── architecture_notebook.adoc
 ├── deployment
@@ -44,6 +46,8 @@ docs
 │   ├── system-wide_requirements.adoc
 │   ├── use-case_model.adoc
 │   ├── use_case_01.inc.adoc
+│   ├── use_case_02.inc.adoc
+│   ├── ux-concept.adoc
 │   └── vision.adoc
 └── test
     └── test_cases.adoc
