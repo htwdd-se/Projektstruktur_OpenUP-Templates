@@ -55,7 +55,7 @@ docs
 
 ## Unified Process - Templates
 
-Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem
+Dieses Repository enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem
 Open Unified Process. Die Vorlagen basieren auf den Templates der offiziellen
 OpenUP Dokumentation in der Version 1.5x aus dem Eclipse Process Framework
 (EPF) und wurden bis auf geringe inhaltliche / strukturelle Anpassungen
@@ -90,7 +90,7 @@ und der **Systemname** als Attribute global definiert. Diese können über
 `{project-name}` und `{project-system-name}` in der Dokumentation an beliebiger
 Stelle verwendet werden.
 
-- **Projektname** `:project-name:`: Enthält das Belegthema inklusiver der Projekt-ID
+- **Projektname** `:project-name:`: Enthält das Belegthema inklusive der Projekt-ID
 - **Systemname** `:project-system-name:`: Enthält den Systemnamen der Software
 
 ```asciidoc
@@ -116,7 +116,7 @@ image::example.jpg[Beispielbild]
 In dem Dokumentenattribut `:plantumlsdir: plantuml` ist das Standardverzeichnis
 **plantuml** für die Diagramme in plantUML-Notation festgelegt. Im
 Dokumentenattribut `:diagramsdir: diagrams` ist das Verzeichnis für die
-generierten Diagramme angegegben, welches unter dem `:imagesdir:` angelegt
+generierten Diagramme angegeben, welches unter dem `:imagesdir:` angelegt
 wird.
 
 ```asciidoc
@@ -192,7 +192,7 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
 
      > Beim `include` wird über die `lines=1..1;4..-1` Angabe jeweils die 1.
      > und alles ab der 4. Zeile übernommen. Jedes Dokument ist eigenständig
-     > und somit werden über die Zeilen 2 und 3 die jeweiligen Authoren und das
+     > und somit werden über die Zeilen 2 und 3 die jeweiligen Autoren und das
      > Versionsdatum nicht mit übernommen.
 
 3. Erzeugen Sie das Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ ([Hinweise aus dem Praktikum](https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-02.html#_2_generieren_des_ausgabeformates)):
@@ -218,7 +218,7 @@ Folgende Schritte sind für eine Belegabgabe durchzuführen:
    ```
 
 4. Prüfen Sie, dass das korrekte **Projektthema**, alle **Teammitglieder** und
-   das **Abgabedatum** auf dem Deckblatt stehen und dass ebefalls alle
+   das **Abgabedatum** auf dem Deckblatt stehen und dass ebenfalls alle
    erforderlichen **Dokumente** mit ihren Inhalten enthalten sind.
 
 5. Geben Sie das finale Abgabe-PDF _*se1_belegabgabe_t00.pdf*_ über den
