@@ -1,6 +1,6 @@
 // Meta
-:project-name: <Projektthema (T00)>
-:project-system-name: <Projektname-System>
+:project-name: Projektthema (T00)
+:project-system-name: Software-Name
 // Settings:
 :toc:
 :toc-title: Inhaltsverzeichnis
